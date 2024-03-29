@@ -5,7 +5,7 @@ class OpenCartMonitor(tk.Tk):
 
     def __init__(self):
         tk.Tk.__init__(self)
-        self.title("OpenCart Monitor")
+        self.title("OpenCart Monitor") 
         self.geometry("800x600")
 
         self.grid = tk.Frame(self)
